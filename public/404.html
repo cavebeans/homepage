@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>cavebeans — Page not found</title>
+    <script>
+      // GitHub Pages SPA redirect — load the index for client-side routing
+      const segment = "/brew-chat-catalogue/";
+      sessionStorage.redirect = location.pathname + location.search + location.hash;
+      location.replace(segment);
+    </script>
+  </head>
+  <body>
+    <a href="/brew-chat-catalogue/">Go home</a>
+  </body>
+</html>
