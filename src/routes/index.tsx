@@ -80,7 +80,7 @@ function Home() {
 /* ---------- sections ---------- */
 
 function Logo({ className = "h-9 w-auto" }: { className?: string }) {
-  return <img src="/brew-chat-catalogue/images/cavebeans-logo.svg" alt="cavebeans" className={className} width={200} height={200} />;
+  return <img src="/homepage/images/cavebeans-logo.svg" alt="cavebeans" className={className} width={200} height={200} />;
 }
 
 function Nav() {
@@ -156,7 +156,7 @@ function Hero() {
         <div className="relative md:col-span-5">
           <div className="absolute -inset-6 -z-10 rounded-3xl bg-secondary/70" aria-hidden />
           <img
-            src="/brew-chat-catalogue/images/cavebeans-hero.svg"
+            src="/homepage/images/cavebeans-hero.svg"
             alt="Hand-drawn coffee and chocolate illustration"
             width={1200}
             height={1200}
