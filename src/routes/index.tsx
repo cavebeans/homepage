@@ -148,7 +148,7 @@ function Hero() {
             </a>
           </div>
           <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border pt-6">
-            <Stat k="12+" v="Origins" />
+            <Stat k="Couverture" v="Chocolate" />
             <Stat k="B2B" v="Consulting" />
             <Stat k="Craft" v="Roasted weekly" />
           </dl>
